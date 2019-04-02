@@ -1,6 +1,9 @@
-# MapStream
+# MapStream2
 
-Refactored out of [event-stream](https://github.com/dominictarr/event-stream)
+This package is a fork of the original map-stream which can be found here: http://github.com/dominictarr/map-stream.
+The map-stream package is an incredibly useful tool, but the recursion used to write the stream's queue can become an issue for very high volume data streams. This package converts the recursive method to using a loop which eliminates any concerns with overloading the call stack. Aside from this change behind the scenes MapStream and MapStream2 operate the same. 
+
+Substantial credit should go to Dominic Tarr for creating the original MapStream.
 
 ##map (asyncFunction[, options])
 
