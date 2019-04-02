@@ -1,6 +1,6 @@
 {
   "name": "map-stream2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "construct pipes of streams of events for high volumes of data",
   "homepage": "http://github.com/MGardner02/map-stream",
